@@ -15,6 +15,8 @@
 | **estimator-api** | Node 20, Fastify, JSON Schema, CORS, security headers | — | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) |
 | **Marketing landing** | Responsive React landing, bilingual, Formspree | [Demo](https://pixellayer7-jpg.github.io/1/) | [1](https://github.com/pixellayer7-jpg/1) |
 
+**Live product loop:** [Landing](https://pixellayer7-jpg.github.io/1/) → [Quote calculator](https://pixellayer7-jpg.github.io/project-estimator/) → email / optional API share link.
+
 **Suggested interview walkthrough:** open the [quote calculator demo](https://pixellayer7-jpg.github.io/project-estimator/) → pick project type & add-ons → **Save online copy** (if API is wired) or **Email this estimate** → show `?load=<uuid>` restore.
 
 ---
