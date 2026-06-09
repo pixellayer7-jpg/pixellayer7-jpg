@@ -13,9 +13,9 @@
 
 | Project | What it shows | Live | Code |
 |--------|----------------|------|------|
-| **Project Quote Calculator** v1.22 | i18n, Vitest, `?load=` hydrate, links to landing | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) |
+| **Project Quote Calculator** v1.23 | i18n, Vitest, `?load=` hydrate, landing link in UI | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) |
 | **estimator-api** | Node 20, Fastify, JSON Schema, CORS, security headers | — | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) |
-| **Marketing landing** v1.2 | Portfolio, process, cross-links to calculator | [Demo](https://pixellayer7-jpg.github.io/1/) | [1](https://github.com/pixellayer7-jpg/1) |
+| **Marketing landing** v1.3 | FAQ, SEO meta, lang persistence, a11y skip links | [Demo](https://pixellayer7-jpg.github.io/1/) | [1](https://github.com/pixellayer7-jpg/1) |
 
 **Live product loop:** [Landing](https://pixellayer7-jpg.github.io/1/) → [Quote calculator](https://pixellayer7-jpg.github.io/project-estimator/) → email / optional API share link.
 
