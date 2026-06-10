@@ -1,35 +1,54 @@
 # Hi, I'm He Zhang (PixelLayer) 👋
 
-**React / Frontend developer** — fast, bilingual web UIs and small full-stack tools (landing pages, quote calculators, REST APIs).  
-**React / 前端开发者** — 专注 React 落地页、中英双语界面与可测试的小型全栈工具。
+**React / Frontend developer** building **bilingual, test-backed** product demos — not mockups.  
+**React / 前端开发者** — 可演示、可测试的双语 Web 产品，而非静态原型。
 
-📫 **pixellayer7@gmail.com** · Open to **frontend / full-stack** roles (remote OK)
+[![Landing CI](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml)
+[![Calculator CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml)
+[![API CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml)
 
-🌐 **Live demos:** [Landing](https://pixellayer7-jpg.github.io/1/) · [Quote calculator](https://pixellayer7-jpg.github.io/project-estimator/)
+📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
----
-
-## 🔥 Featured work
-
-| Project | What it shows | Live | Code |
-|--------|----------------|------|------|
-| **Project Quote Calculator** v1.23 | i18n, Vitest, `?load=` hydrate, landing link in UI | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) |
-| **estimator-api** | Node 20, Fastify, JSON Schema, CORS, security headers | — | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) |
-| **Marketing landing** v1.3 | FAQ, SEO meta, lang persistence, a11y skip links | [Demo](https://pixellayer7-jpg.github.io/1/) | [1](https://github.com/pixellayer7-jpg/1) |
-
-**Live product loop:** [Landing](https://pixellayer7-jpg.github.io/1/) → [Quote calculator](https://pixellayer7-jpg.github.io/project-estimator/) → email / optional API share link.
-
-**Suggested interview walkthrough:** open the [quote calculator demo](https://pixellayer7-jpg.github.io/project-estimator/) → pick project type & add-ons → **Save online copy** (if API is wired) or **Email this estimate** → show `?load=<uuid>` restore.
+🌐 **Live:** [Landing v1.4](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v1.24](https://pixellayer7-jpg.github.io/project-estimator/)
 
 ---
 
-## 🛠 Tech I use
+## Architecture (open-source product loop)
 
-`React` · `Vite` · `JavaScript (ESM)` · `Node.js` · `Fastify` · `REST` · `Vitest` · `Testing Library` · `ESLint` · `Prettier` · `GitHub Actions` · `GitHub Pages` · `i18n` · `a11y`
+```mermaid
+flowchart LR
+  A[Landing v1.4] -->|Get estimate| B[Calculator v1.24]
+  B -->|Email / share link| C[Client]
+  B -->|optional POST| D[estimator-api v0.5]
+  D -->|GET ?load=uuid| B
+  A --> C
+```
+
+| Layer | Repo | Live | Highlights |
+|-------|------|------|------------|
+| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Stats, FAQ, tech stack, Vitest, SEO sitemap |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | 61 tests, i18n, `?load=` hydrate, ecosystem strip |
+| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Deploy via Docker / Render | Fastify, JSON Schema, Bearer list auth |
+
+**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → pick options → email prefill or (with API) save & `?load=` restore.
 
 ---
 
-## 📊 GitHub
+## 🛠 Stack
+
+`React 18` · `Vite 5` · `Vitest` · `Testing Library` · `Node 20` · `Fastify` · `GitHub Actions` · `GitHub Pages` · `Docker` · `i18n` · `a11y`
+
+---
+
+## 💼 What I bring
+
+- **End-to-end thinking** — landing → tool → API → deploy docs  
+- **Engineering quality** — CI, tests, schema validation, security headers  
+- **Bilingual UX** — EN / 中文 across public demos  
+
+---
+
+## 📊 GitHub activity
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=pixellayer7-jpg&show_icons=true&theme=dark&hide_border=true)
 
@@ -37,20 +56,4 @@
 
 ---
 
-## 💼 What I bring to a team
-
-- **Product-minded frontend** — config-driven pricing, presales flows, not just static pages  
-- **Engineering habits** — tests, CI, error boundaries, sensible API contracts  
-- **Bilingual UX** — EN / 中文 for international or CN-facing products  
-
----
-
-## 📌 All public repos
-
-- [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) — Bilingual quote calculator (flagship)  
-- [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) — Quote snapshot API (MVP)  
-- [1](https://github.com/pixellayer7-jpg/1) — PixelLayer marketing landing page  
-
----
-
-<sub>PixelLayer L.L.C — portfolio & client tooling. MIT-licensed demos.</sub>
+<sub>PixelLayer L.L.C · MIT-licensed portfolio · [All repos](https://github.com/pixellayer7-jpg?tab=repositories)</sub>
