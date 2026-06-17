@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v1.5](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v1.25](https://pixellayer7-jpg.github.io/project-estimator/)
+🌐 **Live:** [Landing v1.6](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v1.26](https://pixellayer7-jpg.github.io/project-estimator/)
 
 ---
 
@@ -17,19 +17,19 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v1.5] -->|Get estimate| B[Calculator v1.25]
-  B -->|sessionStorage handoff| A
+  A[Landing v1.6] -->|Get estimate| B[Calculator v1.26]
+  B -->|sessionStorage handoff + UTM| A
   B -->|Email / share link| C[Client]
-  B -->|optional POST| D[estimator-api v0.5]
+  B -->|optional POST| D[estimator-api v0.6]
   D -->|GET ?load=uuid| B
   A --> C
 ```
 
 | Layer | Repo | Live | Highlights |
 |-------|------|------|------------|
-| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Deliverables, legal, contact handoff, SOW template |
-| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | “Continue on main site”, 63+ tests, `?load=` hydrate |
-| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Deploy via Docker / Render | Fastify, JSON Schema, Bearer list auth |
+| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | About, client-facing stats, OG image, SOW link |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Handoff tests, UTM, cross-origin warning |
+| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Deploy via Docker / Render | Atomic store, deep health, schema enums |
 
 **Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → pick options → email prefill or (with API) save & `?load=` restore.
 
