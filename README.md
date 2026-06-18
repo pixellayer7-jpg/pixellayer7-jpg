@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v1.6](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v1.26](https://pixellayer7-jpg.github.io/project-estimator/)
+🌐 **Live:** [Landing v1.6.1](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v1.26.1](https://pixellayer7-jpg.github.io/project-estimator/)
 
 ---
 
