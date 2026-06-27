@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v1.7.1](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v1.27.1](https://pixellayer7-jpg.github.io/project-estimator/)
+🌐 **Live:** [Landing v2.0](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.0](https://pixellayer7-jpg.github.io/project-estimator/)
 
 ---
 
@@ -17,21 +17,22 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v1.7.1] -->|Pricing cards ?type=| B[Calculator v1.27.1]
-  B -->|sessionStorage handoff| A
+  A[Landing v2.0] -->|Pricing cards ?type=| B[Calculator v2.0]
+  B -->|SOW draft + handoff| A
   B -->|Email / share link| C[Client]
-  B -->|optional POST| D[estimator-api v0.7.1]
+  B -->|POST quote + lead| D[estimator-api v1.0]
   D -->|GET ?load=uuid| B
+  D -->|PATCH status| E[Admin ?admin=1]
   A --> C
 ```
 
 | Layer | Repo | Live | Highlights |
 |-------|------|------|------------|
-| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Mobile nav, pricing UTM, contact → calculator, robots/humans |
-| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Pricing overview links back to landing `#pricing` |
-| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Docker / Render | `GET /api/v1/stats` quote count |
+| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Case studies, testimonials, booking CTA, lead API hook |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | SOW Markdown export, quote admin panel |
+| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Docker / Render | Leads pipeline, quote CRM status, stats |
 
-**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → pick options → email prefill or (with API) save & `?load=` restore.
+**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → pick options → **Download SOW** → handoff to contact → (with API) save, `?load=`, admin status.
 
 ---
 
