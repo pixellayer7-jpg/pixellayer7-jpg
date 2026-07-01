@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.0](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.0](https://pixellayer7-jpg.github.io/project-estimator/)
+🌐 **Live:** [Landing v2.1](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.1](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 
 ---
 
@@ -17,22 +17,21 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.0] -->|Pricing cards ?type=| B[Calculator v2.0]
+  A[Landing v2.1] -->|Pricing cards ?type=| B[Calculator v2.1]
   B -->|SOW draft + handoff| A
-  B -->|Email / share link| C[Client]
-  B -->|POST quote + lead| D[estimator-api v1.0]
+  B -->|POST quote + lead| D[estimator-api v1.1]
+  D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   D -->|GET ?load=uuid| B
-  D -->|PATCH status| E[Admin ?admin=1]
-  A --> C
+  A --> C[Client]
 ```
 
 | Layer | Repo | Live | Highlights |
 |-------|------|------|------------|
-| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Case studies, testimonials, booking CTA, lead API hook |
-| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | SOW Markdown export, quote admin panel |
-| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Docker / Render | Leads pipeline, quote CRM status, stats |
+| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Ecosystem strip, lead API, booking CTA |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | SOW export, unified CRM admin, JSON/CSV export |
+| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Docker / Render | Lead status CRM, stats breakdown, local dev compose |
 
-**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → pick options → **Download SOW** → handoff to contact → (with API) save, `?load=`, admin status.
+**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → SOW download → contact → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) with Bearer token.
 
 ---
 
@@ -44,7 +43,7 @@ flowchart LR
 
 ## 💼 What I bring
 
-- **End-to-end thinking** — landing → tool → API → deploy docs  
+- **End-to-end thinking** — landing → tool → API → CRM admin → deploy docs  
 - **Engineering quality** — CI, tests, schema validation, security headers  
 - **Bilingual UX** — EN / 中文 across public demos  
 
