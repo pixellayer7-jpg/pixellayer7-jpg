@@ -57,4 +57,11 @@ flowchart LR
 
 ---
 
+## 🔗 Hub Index
+
+- [PixelLayer Hub Index](./HUB-INDEX.md)
+- [Profile setup checklist](./GITHUB_PROFILE_SETUP.md)
+
+---
+
 <sub>PixelLayer L.L.C · MIT-licensed portfolio · [All repos](https://github.com/pixellayer7-jpg?tab=repositories)</sub>
