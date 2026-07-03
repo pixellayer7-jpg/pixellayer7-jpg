@@ -37,6 +37,7 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 
 **PixelLayer L.L.C** 对外工程索引。
 
-- **官网：** [主站演示](https://pixellayer7-jpg.github.io/1/)
-- **报价工具：** [计算器演示](https://pixellayer7-jpg.github.io/project-estimator/)
+- **官网：** [主站演示 v2.1](https://pixellayer7-jpg.github.io/1/)
+- **报价工具：** [计算器 v2.1](https://pixellayer7-jpg.github.io/project-estimator/)
+- **CRM 管理：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 - **联系：** pixellayer7@gmail.com
