@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.1](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
+🌐 **Live:** [Landing v2.1.1](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.1.1](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 
 ---
 
@@ -17,9 +17,9 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1] -->|Pricing cards ?type=| B[Calculator v2.1]
-  B -->|SOW draft + handoff| A
-  B -->|POST quote + lead| D[estimator-api v1.1]
+  A[Landing v2.1.1] -->|?quote= hydrate| B[Calculator v2.1.1]
+  B -->|Save & ?quote= contact| A
+  B -->|POST quote + lead| D[estimator-api v1.1.1]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   D -->|GET ?load=uuid| B
   A --> C[Client]

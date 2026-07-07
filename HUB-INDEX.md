@@ -8,9 +8,9 @@ Central index for **PixelLayer L.L.C** public engineering work.
 
 | Product | URL | Version |
 |---------|-----|---------|
-| **Marketing landing** | [github.io/1](https://pixellayer7-jpg.github.io/1/) | v2.1 |
-| **Quote calculator** | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.1 |
-| **Quote API** | Docker / Render | v1.1 |
+| **Marketing landing** | [github.io/1](https://pixellayer7-jpg.github.io/1/) | v2.1.1 |
+| **Quote calculator** | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.1.1 |
+| **Quote API** | Docker / Render | v1.1.1 |
 
 **Flow:** Landing -> calculator -> SOW / handoff -> API leads + quotes -> **CRM admin** (`?admin=1`) with stats, status, export.
 
