@@ -31,9 +31,9 @@ https://github.com/settings/profile
 
 个人主页 → **Customize your pins** → 选 3 个：
 
-1. `1`（Landing v2.1）
-2. `project-estimator`（Calculator v2.1）
-3. `estimator-api`（API v1.1）
+1. `1`（Landing v2.1.1）
+2. `project-estimator`（Calculator v2.1.1）
+3. `estimator-api`（API v1.1.1）
 
 ---
 
@@ -41,9 +41,9 @@ https://github.com/settings/profile
 
 | 仓库 | Description | Topics |
 |------|-------------|--------|
-| **1** | PixelLayer marketing landing v2.1 — CRM funnel, case studies | `react` `vite` `landing-page` `portfolio` |
-| **project-estimator** | Bilingual quote calculator v2.1 — SOW export, CRM admin | `react` `vite` `portfolio` `i18n` `vitest` |
-| **estimator-api** | Fastify API v1.1 — quotes, leads, CRM status | `nodejs` `fastify` `rest-api` `portfolio` |
+| **1** | PixelLayer marketing landing v2.1.1 — quote prefill, CRM funnel | `react` `vite` `landing-page` `portfolio` |
+| **project-estimator** | Bilingual quote calculator v2.1.1 — save & contact handoff, CRM admin | `react` `vite` `portfolio` `i18n` `vitest` |
+| **estimator-api** | Fastify API v1.1.1 — quotes, leads, share links | `nodejs` `fastify` `rest-api` `portfolio` |
 
 ---
 
