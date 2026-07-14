@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1.1](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.1.1](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
+🌐 **Live:** [Landing v2.1.4](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.2.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin (demo OK)](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 
 ---
 
@@ -17,21 +17,23 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1.1] -->|?quote= hydrate| B[Calculator v2.1.1]
+  A[Landing v2.1.4] -->|?quote= hydrate| B[Calculator v2.2.0]
   B -->|Save & ?quote= contact| A
+  B -->|Print SOW + deposit invoice| C[Client PDF]
   B -->|POST quote + lead| D[estimator-api v1.1.1]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
+  B -->|Demo CRM no secrets| E
   D -->|GET ?load=uuid| B
-  A --> C[Client]
+  A --> F[Client]
 ```
 
 | Layer | Repo | Live | Highlights |
 |-------|------|------|------------|
-| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Ecosystem strip, lead API, booking CTA |
-| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | SOW export, unified CRM admin, JSON/CSV export |
+| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Changelog, mailto-first contact, reply templates |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Print SOW / deposit invoice, **CRM demo mode**, handoff |
 | **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Docker / Render | Lead status CRM, stats breakdown, local dev compose |
 
-**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → SOW download → contact → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) with Bearer token.
+**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → **Print proposal + deposit invoice** → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) (**works without API secrets** in demo mode).
 
 ---
 
