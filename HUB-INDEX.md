@@ -8,7 +8,7 @@ Central index for **PixelLayer L.L.C** public engineering work.
 
 | Product | URL | Version |
 |---------|-----|---------|
-| **Marketing landing** | [github.io/1](https://pixellayer7-jpg.github.io/1/) | v2.1.4 |
+| **Marketing landing** | [github.io/1](https://pixellayer7-jpg.github.io/1/) | v2.1.5 |
 | **Quote calculator** | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.2.0 |
 | **Quote API** | Docker / Render | v1.1.1 |
 
@@ -37,7 +37,7 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 
 **PixelLayer L.L.C** 对外工程索引。
 
-- **官网：** [主站演示 v2.1.4](https://pixellayer7-jpg.github.io/1/)
+- **官网：** [主站演示 v2.1.5](https://pixellayer7-jpg.github.io/1/)
 - **报价工具：** [计算器 v2.2.0](https://pixellayer7-jpg.github.io/project-estimator/)
 - **CRM 管理（演示可用）：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 - **联系：** pixellayer7@gmail.com

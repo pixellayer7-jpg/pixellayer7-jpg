@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1.4](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.2.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin (demo OK)](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
+🌐 **Live:** [Landing v2.1.5](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.2.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin (demo OK)](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 
 ---
 
@@ -17,7 +17,7 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1.4] -->|?quote= hydrate| B[Calculator v2.2.0]
+  A[Landing v2.1.5] -->|?quote= hydrate| B[Calculator v2.2.0]
   B -->|Save & ?quote= contact| A
   B -->|Print SOW + deposit invoice| C[Client PDF]
   B -->|POST quote + lead| D[estimator-api v1.1.1]
@@ -29,7 +29,7 @@ flowchart LR
 
 | Layer | Repo | Live | Highlights |
 |-------|------|------|------------|
-| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Changelog, mailto-first contact, reply templates |
+| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Case studies (problem→metrics), changelog, mailto-first |
 | **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Print SOW / deposit invoice, **CRM demo mode**, handoff |
 | **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Docker / Render | Lead status CRM, stats breakdown, local dev compose |
 
