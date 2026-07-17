@@ -18,12 +18,12 @@
 
 https://github.com/settings/profile
 
-| 字段 | 建议填写 |
-|------|----------|
-| **Name** | He Zhang |
-| **Bio** | `React frontend · Bilingual web apps · Tests & CI` |
-| **Website** | `https://pixellayer7-jpg.github.io/1/` |
-| **Available for hire** | **勾选** |
+| 字段                   | 建议填写                                           |
+| ---------------------- | -------------------------------------------------- |
+| **Name**               | He Zhang                                           |
+| **Bio**                | `React frontend · Bilingual web apps · Tests & CI` |
+| **Website**            | `https://pixellayer7-jpg.github.io/1/`             |
+| **Available for hire** | **勾选**                                           |
 
 ---
 
@@ -39,11 +39,11 @@ https://github.com/settings/profile
 
 ## 4. 各仓库 Description & Topics（建议）
 
-| 仓库 | Description | Topics |
-|------|-------------|--------|
-| **1** | PixelLayer marketing landing v2.1.1 — quote prefill, CRM funnel | `react` `vite` `landing-page` `portfolio` |
-| **project-estimator** | Bilingual quote calculator v2.1.1 — save & contact handoff, CRM admin | `react` `vite` `portfolio` `i18n` `vitest` |
-| **estimator-api** | Fastify API v1.1.1 — quotes, leads, share links | `nodejs` `fastify` `rest-api` `portfolio` |
+| 仓库                  | Description                                                                     | Topics                                     |
+| --------------------- | ------------------------------------------------------------------------------- | ------------------------------------------ |
+| **1**                 | PixelLayer marketing landing v2.1.6 — case studies, changelog, portal link       | `react` `vite` `landing-page` `portfolio`  |
+| **project-estimator** | Bilingual quote calculator v2.3.0 — SOW/invoice, CRM demo, client status portal | `react` `vite` `portfolio` `i18n` `vitest` |
+| **estimator-api**     | Fastify API v1.1.1 — quotes, leads, share links                                 | `nodejs` `fastify` `rest-api` `portfolio`  |
 
 ---
 
@@ -51,21 +51,22 @@ https://github.com/settings/profile
 
 Settings → Pages → **Source: GitHub Actions**
 
-| 仓库 | 线上 |
-|------|------|
-| [1](https://github.com/pixellayer7-jpg/1/settings/pages) | https://pixellayer7-jpg.github.io/1/ |
-| [project-estimator](https://github.com/pixellayer7-jpg/project-estimator/settings/pages) | https://pixellayer7-jpg.github.io/project-estimator/ |
-| CRM admin | https://pixellayer7-jpg.github.io/project-estimator/?admin=1 |
+| 仓库                                                                                     | 线上                                                             |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [1](https://github.com/pixellayer7-jpg/1/settings/pages)                                 | https://pixellayer7-jpg.github.io/1/                             |
+| [project-estimator](https://github.com/pixellayer7-jpg/project-estimator/settings/pages) | https://pixellayer7-jpg.github.io/project-estimator/             |
+| CRM admin                                                                                | https://pixellayer7-jpg.github.io/project-estimator/?admin=1     |
+| Client status portal                                                                     | https://pixellayer7-jpg.github.io/project-estimator/?portal=demo |
 
 ---
 
 ## 6. 可选：Formspree + API secrets
 
-| Secret / env | 仓库 |
-|--------------|------|
-| `VITE_FORMSPREE_FORM_ID` | `1`, `project-estimator` |
-| `VITE_QUOTE_API_URL` / `VITE_LEAD_API_URL` | `project-estimator`, `1` |
-| `LIST_QUOTES_TOKEN` | `estimator-api`（Render/Docker） |
+| Secret / env                               | 仓库                             |
+| ------------------------------------------ | -------------------------------- |
+| `VITE_FORMSPREE_FORM_ID`                   | `1`, `project-estimator`         |
+| `VITE_QUOTE_API_URL` / `VITE_LEAD_API_URL` | `project-estimator`, `1`         |
+| `LIST_QUOTES_TOKEN`                        | `estimator-api`（Render/Docker） |
 
 ---
 

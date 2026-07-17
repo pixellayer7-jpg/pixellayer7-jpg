@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1.5](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.2.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin (demo OK)](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
+🌐 **Live:** [Landing v2.1.6](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.3.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=demo)
 
 ---
 
@@ -17,23 +17,25 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1.5] -->|?quote= hydrate| B[Calculator v2.2.0]
+  A[Landing v2.1.6] -->|?quote= hydrate| B[Calculator v2.3.0]
   B -->|Save & ?quote= contact| A
   B -->|Print SOW + deposit invoice| C[Client PDF]
   B -->|POST quote + lead| D[estimator-api v1.1.1]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   B -->|Demo CRM no secrets| E
+  E -->|Accepted project| P[Client status portal]
+  P -->|Milestones · deliverables · updates| F[Client]
   D -->|GET ?load=uuid| B
   A --> F[Client]
 ```
 
-| Layer | Repo | Live | Highlights |
-|-------|------|------|------------|
-| **Marketing** | [1](https://github.com/pixellayer7-jpg/1) | [Demo](https://pixellayer7-jpg.github.io/1/) | Case studies (problem→metrics), changelog, mailto-first |
-| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Print SOW / deposit invoice, **CRM demo mode**, handoff |
-| **API** | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api) | Docker / Render | Lead status CRM, stats breakdown, local dev compose |
+| Layer          | Repo                                                                      | Live                                                         | Highlights                                              |
+| -------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
+| **Marketing**  | [1](https://github.com/pixellayer7-jpg/1)                                 | [Demo](https://pixellayer7-jpg.github.io/1/)                 | Case studies, changelog, portal link, mailto-first      |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | SOW / invoice, **CRM demo**, **client portal**, handoff |
+| **API**        | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api)         | Docker / Render                                              | Lead status CRM, stats breakdown, local dev compose     |
 
-**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → **Print proposal + deposit invoice** → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) (**works without API secrets** in demo mode).
+**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → **Print proposal + deposit invoice** → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) → [Client status portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=demo). CRM and portal both work without API secrets.
 
 ---
 
@@ -45,9 +47,9 @@ flowchart LR
 
 ## 💼 What I bring
 
-- **End-to-end thinking** — landing → tool → API → CRM admin → deploy docs  
-- **Engineering quality** — CI, tests, schema validation, security headers  
-- **Bilingual UX** — EN / 中文 across public demos  
+- **End-to-end thinking** — landing → tool → API → CRM admin → deploy docs
+- **Engineering quality** — CI, tests, schema validation, security headers
+- **Bilingual UX** — EN / 中文 across public demos
 
 ---
 
