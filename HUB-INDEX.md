@@ -8,12 +8,13 @@ Central index for **PixelLayer L.L.C** public engineering work.
 
 | Product                  | URL                                                                                 | Version |
 | ------------------------ | ----------------------------------------------------------------------------------- | ------- |
-| **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.6  |
-| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.3.0  |
-| **Client status portal** | [?portal=demo](https://pixellayer7-jpg.github.io/project-estimator/?portal=demo)    | v2.3.0  |
+| **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.8  |
+| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.5.0  |
+| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.5.0  |
+| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.5.0  |
 | **Quote API**            | Docker / Render                                                                     | v1.1.1  |
 
-**Flow:** Landing -> calculator -> **SOW / deposit invoice** -> **CRM admin** (`?admin=1`) -> **client portal** (`?portal=demo`: progress, milestones, deliverables, updates). CRM and portal demos need no secrets.
+**Flow:** Landing -> calculator -> **Open proposal (`?proposal=sow`)** with the same price/scope -> **Accept scope** -> **client portal (`?portal=quote`)** -> **CRM admin** (`?admin=1`). Zero secrets.
 
 **Local dev:** [estimator-api/docs/LOCAL-DEV.md](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/LOCAL-DEV.md)
 
@@ -38,8 +39,9 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 
 **PixelLayer L.L.C** 对外工程索引。
 
-- **官网：** [主站演示 v2.1.6](https://pixellayer7-jpg.github.io/1/)
-- **报价工具：** [计算器 v2.3.0](https://pixellayer7-jpg.github.io/project-estimator/)
+- **官网：** [主站演示 v2.1.8](https://pixellayer7-jpg.github.io/1/)
+- **报价工具：** [计算器 v2.5.0](https://pixellayer7-jpg.github.io/project-estimator/)
 - **CRM 管理（演示可用）：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
-- **客户状态页（演示）：** [?portal=demo](https://pixellayer7-jpg.github.io/project-estimator/?portal=demo)
+- **可分享提案：** [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)
+- **客户状态页（报价灌水）：** [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)
 - **联系：** pixellayer7@gmail.com

@@ -41,8 +41,8 @@ https://github.com/settings/profile
 
 | 仓库                  | Description                                                                     | Topics                                     |
 | --------------------- | ------------------------------------------------------------------------------- | ------------------------------------------ |
-| **1**                 | PixelLayer marketing landing v2.1.6 — case studies, changelog, portal link       | `react` `vite` `landing-page` `portfolio`  |
-| **project-estimator** | Bilingual quote calculator v2.3.0 — SOW/invoice, CRM demo, client status portal | `react` `vite` `portfolio` `i18n` `vitest` |
+| **1**                 | PixelLayer marketing landing v2.1.8 — case studies, changelog, proposal link     | `react` `vite` `landing-page` `portfolio`  |
+| **project-estimator** | Bilingual quote calculator v2.5.0 — shareable proposal, quote-hydrated portal, CRM demo | `react` `vite` `portfolio` `i18n` `vitest` |
 | **estimator-api**     | Fastify API v1.1.1 — quotes, leads, share links                                 | `nodejs` `fastify` `rest-api` `portfolio`  |
 
 ---
@@ -56,7 +56,7 @@ Settings → Pages → **Source: GitHub Actions**
 | [1](https://github.com/pixellayer7-jpg/1/settings/pages)                                 | https://pixellayer7-jpg.github.io/1/                             |
 | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator/settings/pages) | https://pixellayer7-jpg.github.io/project-estimator/             |
 | CRM admin                                                                                | https://pixellayer7-jpg.github.io/project-estimator/?admin=1     |
-| Client status portal                                                                     | https://pixellayer7-jpg.github.io/project-estimator/?portal=demo |
+| Client status portal                                                                     | https://pixellayer7-jpg.github.io/project-estimator/?portal=quote |
 
 ---
 
