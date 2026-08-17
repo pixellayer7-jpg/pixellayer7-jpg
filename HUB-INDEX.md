@@ -8,13 +8,13 @@ Central index for **PixelLayer L.L.C** public engineering work.
 
 | Product                  | URL                                                                                 | Version |
 | ------------------------ | ----------------------------------------------------------------------------------- | ------- |
-| **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.8  |
-| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.5.0  |
-| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.5.0  |
-| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.5.0  |
+| **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.9  |
+| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.6.0  |
+| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.6.0  |
+| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.6.0  |
 | **Quote API**            | Docker / Render                                                                     | v1.1.1  |
 
-**Flow:** Landing -> calculator -> **Open proposal (`?proposal=sow`)** with the same price/scope -> **Accept scope** -> **client portal (`?portal=quote`)** -> **CRM admin** (`?admin=1`). Zero secrets.
+**Flow:** Landing -> calculator -> **Open proposal (`?proposal=sow`)** -> **type name to accept** -> **client portal** **Mark deposit sent** + kickoff checklist -> **CRM admin** (`?admin=1`). Zero secrets.
 
 **Local dev:** [estimator-api/docs/LOCAL-DEV.md](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/LOCAL-DEV.md)
 
@@ -39,8 +39,8 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 
 **PixelLayer L.L.C** 对外工程索引。
 
-- **官网：** [主站演示 v2.1.8](https://pixellayer7-jpg.github.io/1/)
-- **报价工具：** [计算器 v2.5.0](https://pixellayer7-jpg.github.io/project-estimator/)
+- **官网：** [主站演示 v2.1.9](https://pixellayer7-jpg.github.io/1/)
+- **报价工具：** [计算器 v2.6.0](https://pixellayer7-jpg.github.io/project-estimator/)
 - **CRM 管理（演示可用）：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 - **可分享提案：** [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)
 - **客户状态页（报价灌水）：** [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)

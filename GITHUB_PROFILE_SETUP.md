@@ -41,8 +41,8 @@ https://github.com/settings/profile
 
 | 仓库                  | Description                                                                     | Topics                                     |
 | --------------------- | ------------------------------------------------------------------------------- | ------------------------------------------ |
-| **1**                 | PixelLayer marketing landing v2.1.8 — case studies, changelog, proposal link     | `react` `vite` `landing-page` `portfolio`  |
-| **project-estimator** | Bilingual quote calculator v2.5.0 — shareable proposal, quote-hydrated portal, CRM demo | `react` `vite` `portfolio` `i18n` `vitest` |
+| **1**                 | PixelLayer marketing landing v2.1.9 — case studies, changelog, proposal link     | `react` `vite` `landing-page` `portfolio`  |
+| **project-estimator** | Bilingual quote calculator v2.6.0 — typed proposal accept, kickoff checklist, portal | `react` `vite` `portfolio` `i18n` `vitest` |
 | **estimator-api**     | Fastify API v1.1.1 — quotes, leads, share links                                 | `nodejs` `fastify` `rest-api` `portfolio`  |
 
 ---
