@@ -9,7 +9,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1.9](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.6.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)
+🌐 **Live:** [Landing v2.1.10](https://pixellayer7-jpg.github.io/1/) · [Quote calculator v2.7.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)
 
 ---
 
@@ -17,15 +17,17 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1.9] -->|?quote= hydrate| B[Calculator v2.6.0]
+  A[Landing v2.1.10] -->|?quote= hydrate| B[Calculator v2.7.0]
   B -->|Save & ?quote= contact| A
   B -->|?proposal=sow same price| R[Shareable proposal]
   R -->|Typed name to accept| P[Client status portal]
-  P -->|Mark deposit + kickoff checklist| K[Kickoff]
+  P -->|Mark deposit + kickoff| K[Kickoff]
+  K -->|Engagement JSON/MD| X[Evidence pack]
   B -->|?portal=quote same price| P
   B -->|POST quote + lead| D[estimator-api v1.1.1]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   B -->|Demo CRM no secrets| E
+  E -->|This browser signed quote| X
   E -->|Per-quote proposal + portal| R
   K --> F[Client]
   D -->|GET ?load=uuid| B
@@ -35,10 +37,10 @@ flowchart LR
 | Layer          | Repo                                                                      | Live                                                         | Highlights                                              |
 | -------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
 | **Marketing**  | [1](https://github.com/pixellayer7-jpg/1)                                 | [Demo](https://pixellayer7-jpg.github.io/1/)                 | Case studies, changelog, proposal link, mailto-first    |
-| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Typed proposal accept, kickoff checklist, quote portal |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Engagement record, CRM this-browser status, kickoff |
 | **API**        | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api)         | Docker / Render                                              | Lead status CRM, stats breakdown, local dev compose     |
 
-**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → **Open proposal** → **type name to accept** → portal **Mark deposit sent** + kickoff checklist → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1). No API secrets required.
+**Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → **Open proposal** → **type name to accept** → portal kickoff → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) **This browser** + download engagement record. No API secrets required.
 
 ---
 
