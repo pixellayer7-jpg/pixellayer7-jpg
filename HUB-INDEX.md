@@ -13,7 +13,7 @@ Central index for **PixelLayer L.L.C** public engineering work.
 | **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.0  |
 | **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.0  |
 | **Quote API**            | Docker / Render                                                                     | v1.1.1  |
-| **Parish WordPress**     | [github.com/.../rongen-church](https://github.com/pixellayer7-jpg/rongen-church)    | v1.0.0  |
+| **Parish WordPress**     | [github.com/.../rongen-church](https://github.com/pixellayer7-jpg/rongen-church) · preview `/en/` | v1.1.0  |
 
 **Flow:** Landing -> calculator -> **Open proposal** -> **type name to accept** -> portal kickoff -> **CRM This browser** + download engagement record. Zero secrets.
 
@@ -29,7 +29,7 @@ Central index for **PixelLayer L.L.C** public engineering work.
 | Rongen Church  | [pixellayer7-jpg/rongen-church](https://github.com/pixellayer7-jpg/rongen-church)         |
 | Profile README | [pixellayer7-jpg/pixellayer7-jpg](https://github.com/pixellayer7-jpg/pixellayer7-jpg)     |
 
-Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROFILE_SETUP.md)
+Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROFILE_SETUP.md) · Job-description copy: [CAREER-DESCRIPTIONS.md](./CAREER-DESCRIPTIONS.md)
 
 ## Contact
 

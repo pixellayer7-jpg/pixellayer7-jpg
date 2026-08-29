@@ -39,7 +39,7 @@ flowchart LR
 | **Marketing**  | [1](https://github.com/pixellayer7-jpg/1)                                 | [Demo](https://pixellayer7-jpg.github.io/1/)                 | Case studies, changelog, proposal link, mailto-first    |
 | **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Engagement record, CRM this-browser status, kickoff |
 | **API**        | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api)         | Docker / Render                                              | Lead status CRM, stats breakdown, local dev compose     |
-| **Client**     | [rongen-church](https://github.com/pixellayer7-jpg/rongen-church)         | Theme + local preview                                        | Parish WordPress theme, offline staff preview export    |
+| **Client**     | [rongen-church](https://github.com/pixellayer7-jpg/rongen-church)         | Theme + `/en/` preview                                       | Parish WordPress theme, bilingual preview (zh/en)           |
 
 **Interview walkthrough (5 min):** [Landing](https://pixellayer7-jpg.github.io/1/) → [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) → **Open proposal** → **type name to accept** → portal kickoff → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) **This browser** + download engagement record. No API secrets required.
 
@@ -72,6 +72,7 @@ flowchart LR
 
 - [PixelLayer Hub Index](./HUB-INDEX.md)
 - [Profile setup checklist](./GITHUB_PROFILE_SETUP.md)
+- [Career / job description copy](./CAREER-DESCRIPTIONS.md)
 
 ---
 
