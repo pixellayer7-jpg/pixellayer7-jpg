@@ -10,7 +10,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1.15](https://pixellayer7-jpg.github.io/1/) · [5-min walkthrough](https://pixellayer7-jpg.github.io/1/#walkthrough) · [Quote calculator v2.7.0](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote) · [Rongen Church](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/)
+🌐 **Live:** [Landing v2.1.15](https://pixellayer7-jpg.github.io/1/) · [5-min walkthrough](https://pixellayer7-jpg.github.io/1/#walkthrough) · [Quote calculator v2.7.1](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote) · [Rongen Church](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/)
 
 ---
 
@@ -18,7 +18,7 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1.15] -->|?quote= hydrate| B[Calculator v2.7.0]
+  A[Landing v2.1.15] -->|?quote= hydrate| B[Calculator v2.7.1]
   B -->|Save & ?quote= contact| A
   B -->|?proposal=sow same price| R[Shareable proposal]
   R -->|Typed name to accept| P[Client status portal]
@@ -38,9 +38,9 @@ flowchart LR
 | Layer          | Repo                                                                      | Live                                                         | Highlights                                              |
 | -------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
 | **Marketing**  | [1](https://github.com/pixellayer7-jpg/1)                                 | [Demo](https://pixellayer7-jpg.github.io/1/)                 | #walkthrough, changelog, Rongen case deep links         |
-| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Engagement record, CRM this-browser status, kickoff |
-| **API**        | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api)         | Docker / Render                                              | Lead status CRM, stats breakdown, local dev compose     |
-| **Client**     | [rongen-church](https://github.com/pixellayer7-jpg/rongen-church)         | [Live preview](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) | Parish WordPress + bilingual Pages preview + og:image     |
+| **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | Rongen links, engagement record, CRM this-browser, kickoff |
+| **API**        | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api)         | Docker / Render                                              | Quotes, leads, PATCH status, stats, OpenAPI docs            |
+| **Client**     | [rongen-church](https://github.com/pixellayer7-jpg/rongen-church)         | [Live preview](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) | Parish WordPress + bilingual preview + print + og:image     |
 
 **Interview walkthrough (5 min):** [#walkthrough on landing](https://pixellayer7-jpg.github.io/1/#walkthrough) → Calculator → **Open proposal** → **type name to accept** → portal kickoff → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) **This browser** + download engagement record → [Rongen](https://pixellayer7-jpg.github.io/rongen-church/). No API secrets required.
 

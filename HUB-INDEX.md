@@ -9,11 +9,11 @@ Central index for **PixelLayer L.L.C** public engineering work.
 | Product                  | URL                                                                                 | Version |
 | ------------------------ | ----------------------------------------------------------------------------------- | ------- |
 | **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.15 |
-| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.0  |
-| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.0  |
-| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.0  |
+| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.1  |
+| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.1  |
+| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.1  |
 | **Quote API**            | Docker / Render                                                                     | v1.1.1  |
-| **Parish WordPress**     | [Live zh](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) · [source](https://github.com/pixellayer7-jpg/rongen-church) | v1.2.2  |
+| **Parish WordPress**     | [Live zh](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) · [source](https://github.com/pixellayer7-jpg/rongen-church) | v1.2.3  |
 
 **Flow:** Landing -> calculator -> **Open proposal** -> **type name to accept** -> portal kickoff -> **CRM This browser** + download engagement record. Zero secrets.
 
@@ -44,7 +44,7 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 **PixelLayer L.L.C** 对外工程索引。
 
 - **官网：** [主站演示 v2.1.15](https://pixellayer7-jpg.github.io/1/) · [5 分钟走查](https://pixellayer7-jpg.github.io/1/#walkthrough)
-- **报价工具：** [计算器 v2.7.0](https://pixellayer7-jpg.github.io/project-estimator/)
+- **报价工具：** [计算器 v2.7.1](https://pixellayer7-jpg.github.io/project-estimator/)
 - **CRM 管理（演示可用）：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 - **可分享提案：** [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)
 - **客户状态页（报价灌水）：** [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)
