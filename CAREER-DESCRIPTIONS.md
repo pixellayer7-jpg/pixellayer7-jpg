@@ -2,6 +2,13 @@
 
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC** (individual contributor).
 
+**Versions (update when shipping):** Landing **v2.1.15** · Calculator **v2.7.2** · API **v1.1.1** · Rongen **v1.2.3**
+
+**Live demos:**
+- Landing + 5-min walkthrough: https://pixellayer7-jpg.github.io/1/#walkthrough  
+- Calculator: https://pixellayer7-jpg.github.io/project-estimator/  
+- Rongen (client): https://pixellayer7-jpg.github.io/rongen-church/
+
 ---
 
 ## Positioning (one line)
@@ -14,7 +21,7 @@ Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you a
 ## GitHub Bio (≤160 chars)
 
 ```
-Founder @ PixelLayer L.L.C · React / Vite · bilingual demos · real client WordPress · open to frontend roles
+Founder @ PixelLayer · React/Vite · #walkthrough demos · client WordPress · open to frontend roles
 ```
 
 ---
@@ -32,17 +39,17 @@ Founder @ PixelLayer L.L.C · React / Vite · bilingual demos · real client Wor
 
 Use **verb + what + for whom + measurable/demo proof**:
 
-1. Built and maintain an open-source **presales product loop** (marketing landing → quote calculator → optional API/CRM) with EN/中文 UX, Vitest/CI, and GitHub Pages demos recruiters can click in &lt;5 minutes.
-2. Delivered a **custom WordPress theme** for a Lutheran parish (sermons/bulletins/events CPTs, Customizer fields, shortcodes) plus **zero-PHP preview/export tools** so non-technical staff could review layout before go-live.
-3. Designed **commercial artifacts** (SOW draft, shareable proposal, client status portal, engagement record) so freelancing ops do not depend on ad-hoc email threads.
-4. Own end-to-end delivery: requirements → UI → Node/Fastify API → deploy docs → bilingual copy — typical of a **one-person studio**, not a slide deck.
+1. Built and maintain an open-source **presales product loop** (landing → quote calculator → proposal → CRM → client portal) with EN/中文 UX, Vitest/CI, and a public **[#walkthrough](https://pixellayer7-jpg.github.io/1/#walkthrough)** recruiters can click in ~5 minutes — no API secrets required.
+2. Delivered a **custom WordPress theme** for a Lutheran parish (sermons/bulletins/events CPTs, Customizer fields, shortcodes) plus **zero-PHP preview/export**, bilingual Pages demo, **og:image**, and **print stylesheet** for pastor review before go-live.
+3. Designed **commercial artifacts** (SOW draft, shareable `?proposal=sow`, client status portal, engagement JSON/MD) so freelancing ops do not depend on ad-hoc email threads.
+4. Own end-to-end delivery: requirements → UI → Node/Fastify API (quotes, leads, PATCH status, stats) → deploy docs → bilingual copy — typical of a **one-person studio**, not a slide deck.
 
 ### What to avoid
 
 | Weak | Stronger |
 | --- | --- |
-| “Responsible for frontend development” | “Shipped X with live demo at …” |
-| “Familiar with React” | “React 18 + Vite + Vitest CI on public repos” |
+| “Responsible for frontend development” | “Shipped X — live demo: …/#walkthrough” |
+| “Familiar with React” | “React 18 + Vite + Vitest CI on public repos (landing v2.1.15, calculator v2.7.2)” |
 | “Ran my own company” only | “Ran studio **and** wrote production code for client + product demos” |
 | Long tool laundry lists | 1–2 tools + outcome |
 
@@ -53,7 +60,7 @@ Use **verb + what + for whom + measurable/demo proof**:
 **PixelLayer L.L.C** is a one-person web studio focused on:
 
 - High-converting **landing pages** and **bilingual** product UIs  
-- **Quote / proposal tooling** for small studios and freelancers  
+- **Quote / proposal / CRM tooling** for small studios and freelancers  
 - **WordPress** themes when clients need editable parish or small-business sites  
 
 Stack commonly used: React, Vite, Node/Fastify, WordPress/PHP, GitHub Actions, GitHub Pages.
@@ -62,14 +69,26 @@ Stack commonly used: React, Vite, Node/Fastify, WordPress/PHP, GitHub Actions, G
 
 ## Interview story (30 seconds)
 
-> I run PixelLayer as a solo studio. Recruiters can walk the same funnel my clients see: landing → calculator → proposal → optional CRM. I also shipped a real parish WordPress theme with a local preview so pastors could approve design without installing PHP. I’m looking for a frontend / full-stack role where that end-to-end ownership is a plus.
+> I run PixelLayer as a solo studio. Recruiters can follow the same funnel my clients see in about five minutes — start at the landing [#walkthrough](https://pixellayer7-jpg.github.io/1/#walkthrough): calculator → typed proposal acceptance → CRM this-browser status → Rongen parish preview. I also shipped a real WordPress theme with print-ready review pages so pastors could approve design without installing PHP. I’m looking for a frontend / full-stack role where that end-to-end ownership is a plus.
+
+---
+
+## Résumé “Projects” one-liners
+
+| Project | One-liner |
+| --- | --- |
+| Landing (`1`) | Bilingual marketing site + public changelog + 5-min interview walkthrough |
+| Calculator (`project-estimator`) | Quote → proposal → portal → engagement record; social og:image; live on Pages |
+| API (`estimator-api`) | Fastify quotes/leads CRM with Bearer list auth, stats, OpenAPI stub |
+| Rongen (`rongen-church`) | Liturgical WP theme + zh/EN Pages preview, print CSS, og:image |
 
 ---
 
 ## Pin / About suggestions
 
-1. Pin: `1`, `project-estimator`, `rongen-church` (client proof)  
-2. Profile Website → landing demo  
+1. Pin: `1`, `project-estimator`, `rongen-church` (client proof); optional `estimator-api`  
+2. Profile Website → https://pixellayer7-jpg.github.io/1/  
 3. Available for hire → on  
+4. Setup checklist → [GITHUB_PROFILE_SETUP.md](./GITHUB_PROFILE_SETUP.md)
 
 Update this file when versions or live URLs change.
