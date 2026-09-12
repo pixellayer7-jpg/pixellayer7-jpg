@@ -2,7 +2,7 @@
 
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC** (individual contributor).
 
-**Versions (update when shipping):** Landing **v2.1.15** · Calculator **v2.7.2** · API **v1.1.1** · Rongen **v1.2.3**
+**Versions (update when shipping):** Landing **v2.1.16** · Calculator **v2.7.2** · API **v1.1.1** · Rongen **v1.2.3**
 
 **Live demos:**
 - Landing + 5-min walkthrough: https://pixellayer7-jpg.github.io/1/#walkthrough  
@@ -49,7 +49,7 @@ Use **verb + what + for whom + measurable/demo proof**:
 | Weak | Stronger |
 | --- | --- |
 | “Responsible for frontend development” | “Shipped X — live demo: …/#walkthrough” |
-| “Familiar with React” | “React 18 + Vite + Vitest CI on public repos (landing v2.1.15, calculator v2.7.2)” |
+| “Familiar with React” | “React 18 + Vite + Vitest CI on public repos (landing v2.1.16, calculator v2.7.2)” |
 | “Ran my own company” only | “Ran studio **and** wrote production code for client + product demos” |
 | Long tool laundry lists | 1–2 tools + outcome |
 
@@ -77,9 +77,9 @@ Stack commonly used: React, Vite, Node/Fastify, WordPress/PHP, GitHub Actions, G
 
 | Project | One-liner |
 | --- | --- |
-| Landing (`1`) | Bilingual marketing site + public changelog + 5-min interview walkthrough |
+| Landing (`1`) | Bilingual marketing site + public changelog + 5-min interview walkthrough (copy path) |
 | Calculator (`project-estimator`) | Quote → proposal → portal → engagement record; social og:image; live on Pages |
-| API (`estimator-api`) | Fastify quotes/leads CRM with Bearer list auth, stats, OpenAPI stub |
+| API (`estimator-api`) | Fastify quotes/leads CRM; `npm run demo:curl` 5-min walkthrough |
 | Rongen (`rongen-church`) | Liturgical WP theme + zh/EN Pages preview, print CSS, og:image |
 
 ---
