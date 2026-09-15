@@ -33,7 +33,7 @@ https://github.com/settings/profile
 个人主页 → **Customize your pins** → 选 4 个（或至少 3 个）：
 
 1. `1`（Landing **v2.1.16**）
-2. `project-estimator`（Calculator **v2.7.2**）
+2. `project-estimator`（Calculator **v2.7.3**）
 3. `rongen-church`（Client parish site **v1.2.3**）
 4. `estimator-api`（API **v1.1.1**）— 可选第四个
 
@@ -44,7 +44,7 @@ https://github.com/settings/profile
 | 仓库                  | Description                                                                              | Topics                                              |
 | --------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | **1**                 | PixelLayer marketing landing v2.1.16 — copy walkthrough path, changelog tip              | `react` `vite` `landing-page` `portfolio`           |
-| **project-estimator** | Bilingual quote calculator v2.7.2 — og:image, Rongen links, CRM this-browser             | `react` `vite` `portfolio` `i18n` `vitest`          |
+| **project-estimator** | Bilingual quote calculator v2.7.3 — in-app changelog, og:image, CRM this-browser         | `react` `vite` `portfolio` `i18n` `vitest`          |
 | **estimator-api**     | Fastify API v1.1.1 — quotes, leads, PATCH status, stats, OpenAPI                         | `nodejs` `fastify` `rest-api` `portfolio`           |
 | **rongen-church**     | Rongen Lutheran Church WP theme + bilingual Pages preview v1.2.3 (print + og:image)      | `wordpress` `php` `church` `portfolio` `i18n`       |
 
@@ -63,7 +63,8 @@ Settings → Pages → **Source: GitHub Actions**
 | Client status portal                                                                     | https://pixellayer7-jpg.github.io/project-estimator/?portal=quote  |
 | [rongen-church](https://github.com/pixellayer7-jpg/rongen-church/settings/pages)         | https://pixellayer7-jpg.github.io/rongen-church/ · [/en/](https://pixellayer7-jpg.github.io/rongen-church/en/) |
 
-**面试 5 分钟走查：** https://pixellayer7-jpg.github.io/1/#walkthrough
+**面试 5 分钟走查：** https://pixellayer7-jpg.github.io/1/#walkthrough  
+**面试一页纸：** [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md)（前端 5 分钟 + API `demo:curl` 5 分钟）
 
 ---
 
