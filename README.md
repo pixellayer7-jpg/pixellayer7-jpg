@@ -27,7 +27,7 @@ flowchart LR
   P -->|Mark deposit + kickoff| K[Kickoff]
   K -->|Engagement JSON/MD| X[Evidence pack]
   B -->|?portal=quote same price| P
-  B -->|POST quote + lead| D[estimator-api v1.1.1]
+  B -->|POST quote + lead| D[estimator-api v1.1.2]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   B -->|Demo CRM no secrets| E
   E -->|This browser signed quote| X
@@ -41,7 +41,7 @@ flowchart LR
 | -------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
 | **Marketing**  | [1](https://github.com/pixellayer7-jpg/1)                                 | [Demo](https://pixellayer7-jpg.github.io/1/)                 | #walkthrough, changelog, Rongen case deep links         |
 | **Calculator** | [project-estimator](https://github.com/pixellayer7-jpg/project-estimator) | [Demo](https://pixellayer7-jpg.github.io/project-estimator/) | In-app #changelog, og:image, Rongen links, CRM this-browser |
-| **API**        | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api)         | Docker / Render                                              | Quotes, leads, PATCH status, stats, OpenAPI docs            |
+| **API**        | [estimator-api](https://github.com/pixellayer7-jpg/estimator-api)         | Docker / Render                                              | Quotes, leads, PATCH, stats, OpenAPI with examples          |
 | **Client**     | [rongen-church](https://github.com/pixellayer7-jpg/rongen-church)         | [Live preview](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) | Parish WordPress + bilingual preview + print + og:image     |
 
 **Interview walkthrough (5 min):** [#walkthrough on landing](https://pixellayer7-jpg.github.io/1/#walkthrough) → Calculator → **Open proposal** → **type name to accept** → portal kickoff → [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) **This browser** + download engagement record → [Rongen](https://pixellayer7-jpg.github.io/rongen-church/). No API secrets required.
