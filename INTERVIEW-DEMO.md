@@ -2,18 +2,18 @@
 
 **Goal:** In ~10 minutes, show end-to-end ownership — bilingual product UI **and** a small Fastify API — with zero paid services.
 
-**Versions:** Landing **v2.1.16** · Calculator **v2.7.3** · API **v1.1.2** · Rongen **v1.2.4**
+**Versions:** Landing **v2.1.17** · Calculator **v2.7.4** · API **v1.1.2** · Rongen **v1.2.4**
 
 ---
 
 ## Part A — Frontend walkthrough (~5 min, zero secrets)
 
-Open: https://pixellayer7-jpg.github.io/1/#walkthrough  
+Open: https://pixellayer7-jpg.github.io/1/?section=walkthrough  
 (Or click **Copy full path** on that page and paste into chat.)
 
 | Min | Open | Say |
 | --- | --- | --- |
-| 0–1 | Landing `#walkthrough` | Presales loop: landing → quote → proposal → CRM → client site |
+| 0–1 | Landing `?section=walkthrough` | Presales loop: landing → quote → proposal → CRM → client site |
 | 1–2 | [Calculator](https://pixellayer7-jpg.github.io/project-estimator/) | Adjust scope; bilingual; estimate is indicative |
 | 2–3 | [`?proposal=sow`](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) | Same price/scope; type name to accept |
 | 3–4 | [`?admin=1`](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) | CRM demo + **This browser** status; no API token needed |
@@ -64,7 +64,7 @@ Full notes: [estimator-api/docs/CURL-WALKTHROUGH.md](https://github.com/pixellay
 
 | Asset | URL |
 | --- | --- |
-| Landing walkthrough | https://pixellayer7-jpg.github.io/1/#walkthrough |
+| Landing walkthrough | https://pixellayer7-jpg.github.io/1/?section=walkthrough |
 | Calculator + changelog | https://pixellayer7-jpg.github.io/project-estimator/#changelog |
 | Career copy | [CAREER-DESCRIPTIONS.md](./CAREER-DESCRIPTIONS.md) |
 | Profile setup | [GITHUB_PROFILE_SETUP.md](./GITHUB_PROFILE_SETUP.md) |

@@ -8,16 +8,16 @@ Central index for **PixelLayer L.L.C** public engineering work.
 
 | Product                  | URL                                                                                 | Version |
 | ------------------------ | ----------------------------------------------------------------------------------- | ------- |
-| **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.16 |
-| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.3  |
-| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.3  |
-| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.3  |
+| **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.17 |
+| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.4  |
+| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.4  |
+| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.4  |
 | **Quote API**            | Docker / Render                                                                     | v1.1.2  |
 | **Parish WordPress**     | [Live zh](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) · [source](https://github.com/pixellayer7-jpg/rongen-church) | v1.2.4  |
 
 **Flow:** Landing -> calculator -> **Open proposal** -> **type name to accept** -> portal kickoff -> **CRM This browser** + download engagement record. Zero secrets.
 
-**Interview walkthrough (5 min):** [Landing #walkthrough](https://pixellayer7-jpg.github.io/1/#walkthrough)
+**Interview walkthrough (5 min):** [Landing ?section=walkthrough](https://pixellayer7-jpg.github.io/1/?section=walkthrough)
 
 **Local dev:** [estimator-api/docs/LOCAL-DEV.md](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/LOCAL-DEV.md)
 
@@ -43,8 +43,8 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 
 **PixelLayer L.L.C** 对外工程索引。
 
-- **官网：** [主站演示 v2.1.16](https://pixellayer7-jpg.github.io/1/) · [5 分钟走查](https://pixellayer7-jpg.github.io/1/#walkthrough)
-- **报价工具：** [计算器 v2.7.3](https://pixellayer7-jpg.github.io/project-estimator/) · [更新日志](https://pixellayer7-jpg.github.io/project-estimator/#changelog)
+- **官网：** [主站演示 v2.1.17](https://pixellayer7-jpg.github.io/1/) · [5 分钟走查](https://pixellayer7-jpg.github.io/1/?section=walkthrough)
+- **报价工具：** [计算器 v2.7.4](https://pixellayer7-jpg.github.io/project-estimator/) · [更新日志](https://pixellayer7-jpg.github.io/project-estimator/#changelog)
 - **CRM 管理（演示可用）：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 - **可分享提案：** [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)
 - **客户状态页（报价灌水）：** [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)

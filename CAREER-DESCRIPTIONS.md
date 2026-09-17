@@ -2,10 +2,10 @@
 
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC** (individual contributor).
 
-**Versions (update when shipping):** Landing **v2.1.16** · Calculator **v2.7.3** · API **v1.1.2** · Rongen **v1.2.4**
+**Versions (update when shipping):** Landing **v2.1.17** · Calculator **v2.7.4** · API **v1.1.2** · Rongen **v1.2.4**
 
 **Live demos:**
-- Landing + 5-min walkthrough: https://pixellayer7-jpg.github.io/1/#walkthrough  
+- Landing + 5-min walkthrough: https://pixellayer7-jpg.github.io/1/?section=walkthrough  
 - Calculator + changelog: https://pixellayer7-jpg.github.io/project-estimator/#changelog  
 - Rongen (client): https://pixellayer7-jpg.github.io/rongen-church/  
 - Interview one-pager: [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md)
