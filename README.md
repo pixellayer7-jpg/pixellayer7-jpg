@@ -10,9 +10,9 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1.17](https://pixellayer7-jpg.github.io/1/) · [5-min walkthrough](https://pixellayer7-jpg.github.io/1/?section=walkthrough) · [Quote calculator v2.7.4](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote) · [Rongen Church](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/)
+🌐 **Live:** [Landing v2.1.18](https://pixellayer7-jpg.github.io/1/) · [5-min walkthrough](https://pixellayer7-jpg.github.io/1/?section=walkthrough) · [Quote calculator v2.7.4](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote) · [Rongen Church](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/)
 
-📋 **Interview one-pager:** [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md) (frontend 5 min + API `demo:curl` 5 min)
+📋 **Interview one-pager:** [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md) (frontend 5 min + API `demo:curl` 5 min) · [Static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json)
 
 ---
 
@@ -20,14 +20,14 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1.17] -->|?quote= hydrate| B[Calculator v2.7.4]
+  A[Landing v2.1.18] -->|?quote= hydrate| B[Calculator v2.7.4]
   B -->|Save & ?quote= contact| A
   B -->|?proposal=sow same price| R[Shareable proposal]
   R -->|Typed name to accept| P[Client status portal]
   P -->|Mark deposit + kickoff| K[Kickoff]
   K -->|Engagement JSON/MD| X[Evidence pack]
   B -->|?portal=quote same price| P
-  B -->|POST quote + lead| D[estimator-api v1.1.2]
+  B -->|POST quote + lead| D[estimator-api v1.1.3]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   B -->|Demo CRM no secrets| E
   E -->|This browser signed quote| X

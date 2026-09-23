@@ -2,7 +2,7 @@
 
 **Goal:** In ~10 minutes, show end-to-end ownership — bilingual product UI **and** a small Fastify API — with zero paid services.
 
-**Versions:** Landing **v2.1.17** · Calculator **v2.7.4** · API **v1.1.2** · Rongen **v1.2.4**
+**Versions:** Landing **v2.1.18** · Calculator **v2.7.4** · API **v1.1.3** · Rongen **v1.2.4**
 
 ---
 
@@ -48,7 +48,8 @@ npm run demo:curl
 
 Script covers: health → create quote (public `GET` by UUID) → Bearer list/PATCH → lead lifecycle → stats.
 
-Full notes: [estimator-api/docs/CURL-WALKTHROUGH.md](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/CURL-WALKTHROUGH.md)
+Full notes: [estimator-api/docs/CURL-WALKTHROUGH.md](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/CURL-WALKTHROUGH.md)  
+Static OpenAPI (no server): [docs/openapi.json](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json)
 
 **Talking points:** public share link vs Bearer CRM · JSON Schema validation · file store for demos · `links.calculator` / `links.contact`
 
