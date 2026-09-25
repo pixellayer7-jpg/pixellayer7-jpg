@@ -2,7 +2,7 @@
 
 **Goal:** In ~10 minutes, show end-to-end ownership — bilingual product UI **and** a small Fastify API — with zero paid services.
 
-**Versions:** Landing **v2.1.18** · Calculator **v2.7.4** · API **v1.1.3** · Rongen **v1.2.4**
+**Versions:** Landing **v2.1.18** · Calculator **v2.7.5** · API **v1.1.3** · Rongen **v1.2.4**
 
 ---
 
@@ -19,7 +19,7 @@ Open: https://pixellayer7-jpg.github.io/1/?section=walkthrough
 | 3–4 | [`?admin=1`](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) | CRM demo + **This browser** status; no API token needed |
 | 4–5 | [Rongen](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) | Real client WP theme; print / og:image |
 
-**Optional 30s:** Calculator [`#changelog`](https://pixellayer7-jpg.github.io/project-estimator/#changelog) — release cadence without opening GitHub.
+**Optional 30s:** Calculator [`?section=changelog`](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) — release cadence without opening GitHub.
 
 ---
 
@@ -66,7 +66,7 @@ Static OpenAPI (no server): [docs/openapi.json](https://github.com/pixellayer7-j
 | Asset | URL |
 | --- | --- |
 | Landing walkthrough | https://pixellayer7-jpg.github.io/1/?section=walkthrough |
-| Calculator + changelog | https://pixellayer7-jpg.github.io/project-estimator/#changelog |
+| Calculator + changelog | https://pixellayer7-jpg.github.io/project-estimator/?section=changelog |
 | Career copy | [CAREER-DESCRIPTIONS.md](./CAREER-DESCRIPTIONS.md) |
 | Profile setup | [GITHUB_PROFILE_SETUP.md](./GITHUB_PROFILE_SETUP.md) |
 | Hub index | [HUB-INDEX.md](./HUB-INDEX.md) |

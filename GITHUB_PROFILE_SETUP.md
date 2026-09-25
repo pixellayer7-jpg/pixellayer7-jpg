@@ -33,7 +33,7 @@ https://github.com/settings/profile
 个人主页 → **Customize your pins** → 选 4 个（或至少 3 个）：
 
 1. `1`（Landing **v2.1.18**）
-2. `project-estimator`（Calculator **v2.7.4**）
+2. `project-estimator`（Calculator **v2.7.5**）
 3. `rongen-church`（Client parish site **v1.2.4**）
 4. `estimator-api`（API **v1.1.3**）— 可选第四个
 
@@ -44,7 +44,7 @@ https://github.com/settings/profile
 | 仓库                  | Description                                                                              | Topics                                              |
 | --------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | **1**                 | PixelLayer marketing landing v2.1.18 — interview one-pager links, ?section=, walkthrough | `react` `vite` `landing-page` `portfolio`           |
-| **project-estimator** | Bilingual quote calculator v2.7.4 — changelog sync with API/Rongen, og:image         | `react` `vite` `portfolio` `i18n` `vitest`          |
+| **project-estimator** | Bilingual quote calculator v2.7.5 — ?section= deep links, changelog, og:image            | `react` `vite` `portfolio` `i18n` `vitest`          |
 | **estimator-api**     | Fastify API v1.1.3 — quotes, leads, PATCH, stats, static docs/openapi.json               | `nodejs` `fastify` `rest-api` `portfolio`           |
 | **rongen-church**     | Rongen Lutheran Church WP theme + bilingual Pages preview v1.2.4 (print + og:image)      | `wordpress` `php` `church` `portfolio` `i18n`       |
 
