@@ -10,7 +10,7 @@
 
 📫 **pixellayer7@gmail.com** · **Available for frontend / full-stack roles** (remote OK)
 
-🌐 **Live:** [Landing v2.1.19](https://pixellayer7-jpg.github.io/1/) · [5-min walkthrough](https://pixellayer7-jpg.github.io/1/?section=walkthrough) · [Quote calculator v2.7.5](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote) · [Rongen Church](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/)
+🌐 **Live:** [Landing v2.1.19](https://pixellayer7-jpg.github.io/1/) · [5-min walkthrough](https://pixellayer7-jpg.github.io/1/?section=walkthrough) · [Quote calculator v2.7.6](https://pixellayer7-jpg.github.io/project-estimator/) · [CRM admin](https://pixellayer7-jpg.github.io/project-estimator/?admin=1) · [Proposal](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow) · [Client portal](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote) · [Rongen Church](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/)
 
 📋 **Interview one-pager:** [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md) (frontend 5 min + API `demo:curl` 5 min) · [Static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json)
 
@@ -20,7 +20,7 @@
 
 ```mermaid
 flowchart LR
-  A[Landing v2.1.19] -->|?quote= hydrate| B[Calculator v2.7.5]
+  A[Landing v2.1.19] -->|?quote= hydrate| B[Calculator v2.7.6]
   B -->|Save & ?quote= contact| A
   B -->|?proposal=sow same price| R[Shareable proposal]
   R -->|Typed name to accept| P[Client status portal]
@@ -50,7 +50,7 @@ flowchart LR
 
 ## 🛠 Stack
 
-`React 18` · `Vite 5` · `Vitest` · `Testing Library` · `Node 20` · `Fastify` · `WordPress` · `PHP` · `GitHub Actions` · `GitHub Pages` · `Docker` · `i18n` · `a11y`
+`React 18` · `Vite` · `Vitest` · `Testing Library` · `ESLint` · `Node 20+` · `Fastify` · `WordPress` · `PHP` · `GitHub Actions` · `GitHub Pages` · `Docker` · `i18n` · `a11y`
 
 ---
 
