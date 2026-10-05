@@ -12,7 +12,7 @@ Central index for **PixelLayer L.L.C** public engineering work.
 | **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.6  |
 | **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.6  |
 | **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.6  |
-| **Quote API**            | Docker / Render · [static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | v1.1.3  |
+| **Quote API**            | Docker / Render · [static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | v1.2.0  |
 | **Parish WordPress**     | [Live zh](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) · [source](https://github.com/pixellayer7-jpg/rongen-church) | v1.2.4  |
 
 **Flow:** Landing -> calculator -> **Open proposal** -> **type name to accept** -> portal kickoff -> **CRM This browser** + download engagement record. Zero secrets.

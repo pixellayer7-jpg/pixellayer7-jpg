@@ -27,7 +27,7 @@ flowchart LR
   P -->|Mark deposit + kickoff| K[Kickoff]
   K -->|Engagement JSON/MD| X[Evidence pack]
   B -->|?portal=quote same price| P
-  B -->|POST quote + lead| D[estimator-api v1.1.3]
+  B -->|POST quote + lead| D[estimator-api v1.2.0]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   B -->|Demo CRM no secrets| E
   E -->|This browser signed quote| X
@@ -50,7 +50,7 @@ flowchart LR
 
 ## 🛠 Stack
 
-`React 18` · `Vite` · `Vitest` · `Testing Library` · `ESLint` · `Node 20+` · `Fastify` · `WordPress` · `PHP` · `GitHub Actions` · `GitHub Pages` · `Docker` · `i18n` · `a11y`
+`React 18` · `Vite` · `Vitest` · `Testing Library` · `ESLint` · `Node 22` · `Fastify` · `WordPress` · `PHP` · `GitHub Actions` · `GitHub Pages` · `Docker` · `i18n` · `a11y`
 
 ---
 

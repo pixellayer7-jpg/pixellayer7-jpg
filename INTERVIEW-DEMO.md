@@ -2,7 +2,7 @@
 
 **Goal:** In ~10 minutes, show end-to-end ownership — bilingual product UI **and** a small Fastify API — with zero paid services.
 
-**Versions:** Landing **v2.1.20** · Calculator **v2.7.6** · API **v1.1.3** · Rongen **v1.2.4**
+**Versions:** Landing **v2.1.20** · Calculator **v2.7.6** · API **v1.2.0** · Rongen **v1.2.4**
 
 ---
 
@@ -25,7 +25,7 @@ Open: https://pixellayer7-jpg.github.io/1/?section=walkthrough
 
 ## Part B — API curl walkthrough (~5 min)
 
-Needs Node 20 + local API (not required for Part A).
+Needs Node 22 + local API (not required for Part A).
 
 ```bash
 cd estimator-api
