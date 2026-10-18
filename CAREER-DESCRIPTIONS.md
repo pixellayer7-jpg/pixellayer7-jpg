@@ -2,7 +2,7 @@
 
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC**.
 
-**Versions (update when shipping):** Landing **v2.1.25** · Calculator **v2.7.12** · API **v1.2.1** · Rongen **v1.2.5**
+**Versions (update when shipping):** Landing **v2.1.26** · Calculator **v2.7.12** · API **v1.2.1** · Rongen **v1.2.5**
 
 **Live demos (start here):**
 - Interview walkthrough: https://pixellayer7-jpg.github.io/1/?section=walkthrough  
@@ -74,7 +74,7 @@ pixellayer7@gmail.com
 | Weak | Stronger |
 | --- | --- |
 | “Responsible for frontend” | “Shipped X — live: …/?section=walkthrough” |
-| “Familiar with React” | “React 19 + Vite 8 + Vitest + Playwright e2e, axe a11y checks and coverage gates in CI (landing v2.1.25, calculator v2.7.12)” |
+| “Familiar with React” | “React 19 + Vite 8 + Vitest + Playwright e2e, axe a11y checks, ESLint 10 and coverage gates in CI (landing v2.1.26, calculator v2.7.12)” |
 | “Ran my own company” only | “Ran studio **and** wrote production client + product demos” |
 | Tool laundry lists | 1–2 tools + outcome |
 
