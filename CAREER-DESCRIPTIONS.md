@@ -2,7 +2,7 @@
 
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC**.
 
-**Versions (update when shipping):** Landing **v2.1.26** · Calculator **v2.7.13** · API **v1.2.1** · Rongen **v1.2.5**
+**Versions (update when shipping):** Landing **v2.1.26** · Calculator **v2.7.13** · API **v1.2.2** · Rongen **v1.2.5**
 
 **Live demos (start here):**
 - Interview walkthrough: https://pixellayer7-jpg.github.io/1/?section=walkthrough  

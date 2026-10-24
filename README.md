@@ -27,7 +27,7 @@ flowchart LR
   P -->|Mark deposit + kickoff| K[Kickoff]
   K -->|Engagement JSON/MD| X[Evidence pack]
   B -->|?portal=quote same price| P
-  B -->|POST quote + lead| D[estimator-api v1.2.1]
+  B -->|POST quote + lead| D[estimator-api v1.2.2]
   D -->|CRM admin ?admin=1| E[Stats · Quotes · Leads]
   B -->|Demo CRM no secrets| E
   E -->|This browser signed quote| X

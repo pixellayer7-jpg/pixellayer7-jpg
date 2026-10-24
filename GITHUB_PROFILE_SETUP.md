@@ -35,7 +35,7 @@ https://github.com/settings/profile
 1. `1`（Landing **v2.1.26**）
 2. `project-estimator`（Calculator **v2.7.13**）
 3. `rongen-church`（Client parish site **v1.2.5**）
-4. `estimator-api`（API **v1.2.1**）— 可选第四个
+4. `estimator-api`（API **v1.2.2**）— 可选第四个
 
 ---
 
@@ -45,7 +45,7 @@ https://github.com/settings/profile
 | --------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | **1**                 | PixelLayer marketing landing v2.1.26 — React 19 / Vite 8 / ESLint 10, interview one-pager, ?section= walkthrough | `react` `vite` `landing-page` `portfolio`           |
 | **project-estimator** | Bilingual quote calculator v2.7.13— React 19 / Vite 8 / ESLint 10, ?section= deep links  | `react` `vite` `portfolio` `i18n` `vitest`          |
-| **estimator-api**     | Fastify API v1.2.1 — quotes, leads, PATCH, stats, OpenAPI, ESLint + coverage gates               | `nodejs` `fastify` `rest-api` `portfolio`           |
+| **estimator-api**     | Fastify API v1.2.2 — quotes, leads, PATCH, stats, OpenAPI, ESLint + coverage gates               | `nodejs` `fastify` `rest-api` `portfolio`           |
 | **rongen-church**     | Rongen Lutheran Church WP theme + bilingual Pages preview v1.2.5 (print + og:image)      | `wordpress` `php` `church` `portfolio` `i18n`       |
 
 ---
