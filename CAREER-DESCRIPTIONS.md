@@ -64,7 +64,7 @@ pixellayer7@gmail.com
 
 ### Bullets (keep ≤4)
 
-1. Shipped an open **presales loop** (landing → quote → proposal → CRM → portal) with EN/中文 UX, Vitest/CI, and a public **[?section=walkthrough](https://pixellayer7-jpg.github.io/1/?section=walkthrough)** path — ~5 min, zero API secrets.
+1. Shipped an open **presales loop** (landing → quote → proposal → CRM → portal) with EN/中文 UX, **ESLint 10**, **axe** a11y in Playwright e2e, and **coverage gates** in CI — public **[?section=walkthrough](https://pixellayer7-jpg.github.io/1/?section=walkthrough)** (~5 min, zero API secrets).
 2. Delivered a **Lutheran parish WordPress theme** (CPTs, Customizer, shortcodes) plus **zero-PHP Pages preview**, bilingual demo, **og:image**, and **print CSS** for pastor review.
 3. Built commercial ops artifacts (`?proposal=sow`, client portal, engagement JSON/MD) so quotes do not live only in email threads.
 4. Own full delivery: UI → Node/Fastify API (quotes/leads/PATCH/stats + static OpenAPI) → deploy docs — typical of a **one-person studio**.
@@ -96,10 +96,10 @@ pixellayer7@gmail.com
 
 | Project | One-liner |
 | --- | --- |
-| Landing (`1`) | Bilingual marketing site + `?section=` deep links + 5-min interview walkthrough |
-| Calculator (`project-estimator`) | Quote → proposal → portal → engagement record; `?section=changelog` |
-| API (`estimator-api`) | Fastify quotes/leads CRM; `demo:curl` + static `docs/openapi.json` |
-| Rongen (`rongen-church`) | Liturgical WP theme + zh/EN Pages preview, print CSS, og:image |
+| Landing (`1`) | Bilingual marketing site + `?section=` walkthrough; React 19 / Vite 8, ESLint 10, Vitest (~100% lines) + Playwright e2e with axe |
+| Calculator (`project-estimator`) | Quote → proposal → portal → CRM; ESLint 10, ~99% line coverage gates, Playwright + axe a11y in CI |
+| API (`estimator-api`) | Fastify quotes/leads CRM + static OpenAPI; Node test runner at 100% lines / ESLint gates in CI |
+| Rongen (`rongen-church`) | Liturgical WP theme + zh/EN Pages preview, print CSS, og:image; Node 22 CI |
 
 ---
 
