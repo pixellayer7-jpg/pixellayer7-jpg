@@ -2,7 +2,7 @@
 
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC**.
 
-**Versions (update when shipping):** Landing **v2.1.27** · Calculator **v2.7.18** · API **v2.1.0** · Rongen **v1.2.5**
+**Versions (update when shipping):** Landing **v2.1.27** · Calculator **v2.7.19** · API **v2.2.0** · Rongen **v1.2.5**
 
 **Live demos (start here):**
 - Interview walkthrough: https://pixellayer7-jpg.github.io/1/?section=walkthrough  
@@ -74,7 +74,7 @@ pixellayer7@gmail.com
 | Weak | Stronger |
 | --- | --- |
 | “Responsible for frontend” | “Shipped X — live: …/?section=walkthrough” |
-| “Familiar with React” | “React 19 + Vite 8 + Vitest + Playwright e2e, axe a11y checks, ESLint 10 and coverage gates in CI (landing v2.1.27, calculator v2.7.18)” |
+| “Familiar with React” | “React 19 + Vite 8 + Vitest + Playwright e2e, axe a11y checks, ESLint 10 and coverage gates in CI (landing v2.1.27, calculator v2.7.19)” |
 | “Ran my own company” only | “Ran studio **and** wrote production client + product demos” |
 | Tool laundry lists | 1–2 tools + outcome |
 
@@ -97,8 +97,8 @@ pixellayer7@gmail.com
 | Project | One-liner |
 | --- | --- |
 | Landing (`1`) | Bilingual marketing site + `?section=` walkthrough; React 19 / Vite 8, ESLint 10, Vitest (~100% lines) + Playwright e2e with axe |
-| Calculator (`project-estimator`) | Quote → proposal → portal → CRM; ESLint 10, ~99% line coverage gates, Playwright + axe a11y in CI |
-| API (`estimator-api`) | Fastify quotes/leads CRM — SQLite/Postgres + Bearer backup + Playwright API e2e; coverage gates in CI |
+| Calculator (`project-estimator`) | Quote → proposal → portal → CRM (status filter + pagination); ESLint 10, Playwright + axe in CI |
+| API (`estimator-api`) | Fastify quotes/leads with offset/status lists, SQLite/Postgres, Bearer backup, Playwright API e2e |
 | Rongen (`rongen-church`) | Liturgical WP theme + zh/EN Pages preview, print CSS, og:image; Node 22 CI |
 
 ---
