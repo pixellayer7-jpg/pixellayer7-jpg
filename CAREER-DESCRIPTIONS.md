@@ -3,6 +3,7 @@
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC**.
 
 **Versions (update when shipping):** Landing **v2.1.27** · Calculator **v2.7.19** · API **v2.3.0** · Rongen **v1.2.5**
+**Fleet dashboard:** [VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md) (CI badges + changelogs; sync via `versions.json`)
 
 **Live demos (start here):**
 - Interview walkthrough: https://pixellayer7-jpg.github.io/1/?section=walkthrough  

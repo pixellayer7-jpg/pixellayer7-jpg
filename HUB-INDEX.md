@@ -4,6 +4,19 @@
 
 Central index for **PixelLayer L.L.C** public engineering work.
 
+<!-- FLEET:START -->
+## Version & CI fleet
+
+One-page dashboard: **[VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)** (`versions.json` + `npm`-free sync script).
+
+| Product | Version | CI | Live / docs | Changelog | Latest |
+| ------- | ------- | -- | ----------- | --------- | ------ |
+| [Landing](https://github.com/pixellayer7-jpg/1) | **v2.1.27** | [![CI](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/1/) | [notes](https://pixellayer7-jpg.github.io/1/?section=changelog) | Live stats figures covered; interview ?section=walkthrough |
+| [Calculator](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.19** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/project-estimator/) | [notes](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM list status filter + pagination (API offset/status) |
+| [Quote API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.3.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [open](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [notes](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | Multi-token roles (admin/crm/readonly) + GET /api/v1/me |
+| [Rongen Church](https://github.com/pixellayer7-jpg/rongen-church) | **v1.2.5** | [![CI](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/rongen-church/) | [notes](https://github.com/pixellayer7-jpg/rongen-church) | Bilingual WP theme + Pages preview (zh/en), print, og:image |
+<!-- FLEET:END -->
+
 ## Live demos
 
 | Product                  | URL                                                                                 | Version |
@@ -31,7 +44,7 @@ Central index for **PixelLayer L.L.C** public engineering work.
 | Rongen Church  | [pixellayer7-jpg/rongen-church](https://github.com/pixellayer7-jpg/rongen-church)         |
 | Profile README | [pixellayer7-jpg/pixellayer7-jpg](https://github.com/pixellayer7-jpg/pixellayer7-jpg)     |
 
-Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROFILE_SETUP.md) · Job-description copy: [CAREER-DESCRIPTIONS.md](./CAREER-DESCRIPTIONS.md) · Interview one-pager: [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md) · Start here for interviews: [#walkthrough](https://pixellayer7-jpg.github.io/1/#walkthrough)
+Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROFILE_SETUP.md) · Version/CI dashboard: [VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md) · Job-description copy: [CAREER-DESCRIPTIONS.md](./CAREER-DESCRIPTIONS.md) · Interview one-pager: [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md) · Start here for interviews: [#walkthrough](https://pixellayer7-jpg.github.io/1/#walkthrough)
 
 ## Contact
 
@@ -43,6 +56,7 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 
 **PixelLayer L.L.C** 对外工程索引。
 
+- **版本 / CI 仪表：** [VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)
 - **官网：** [主站演示 v2.1.27](https://pixellayer7-jpg.github.io/1/) · [5 分钟走查](https://pixellayer7-jpg.github.io/1/?section=walkthrough)
 - **报价工具：** [计算器 v2.7.19](https://pixellayer7-jpg.github.io/project-estimator/) · [更新日志](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog)
 - **CRM 管理（演示可用）：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)

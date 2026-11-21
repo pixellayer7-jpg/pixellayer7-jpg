@@ -10,6 +10,7 @@
 
 - 主页 README：`README.md`
 - 产品索引：`HUB-INDEX.md`
+- **版本 / CI 仪表：** `VERSION-DASHBOARD.md`（源数据 `versions.json`；刷新：`node scripts/sync-version-dashboard.mjs`）
 - 本地 dev：`estimator-api/docs/LOCAL-DEV.md`
 - 自雇/求职文案：`CAREER-DESCRIPTIONS.md`
 

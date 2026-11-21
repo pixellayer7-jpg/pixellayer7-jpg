@@ -14,6 +14,8 @@
 
 📋 **Interview one-pager:** [INTERVIEW-DEMO.md](./INTERVIEW-DEMO.md) (frontend 5 min + API `demo:curl` 5 min) · [Static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json)
 
+📊 **Version & CI dashboard:** [VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md) — four repos, pinned versions, CI badges, changelogs (`versions.json` + sync script)
+
 ---
 
 ## Architecture (open-source product loop)
@@ -73,6 +75,7 @@ flowchart LR
 
 ## 🔗 Hub Index
 
+- [Version & CI dashboard](./VERSION-DASHBOARD.md)
 - [PixelLayer Hub Index](./HUB-INDEX.md)
 - [Profile setup checklist](./GITHUB_PROFILE_SETUP.md)
 - [Career / job description copy](./CAREER-DESCRIPTIONS.md)

@@ -1,0 +1,57 @@
+{
+  "updated": "2026-11-21",
+  "repos": [
+    {
+      "id": "landing",
+      "name": "Landing",
+      "nameZh": "营销主站",
+      "github": "pixellayer7-jpg/1",
+      "packagePath": "../client-landing/package.json",
+      "version": "2.1.27",
+      "live": "https://pixellayer7-jpg.github.io/1/",
+      "changelog": "https://pixellayer7-jpg.github.io/1/?section=changelog",
+      "ciWorkflow": "ci.yml",
+      "highlightEn": "Live stats figures covered; interview ?section=walkthrough",
+      "highlightZh": "数据一览补齐测试；面试 ?section=walkthrough"
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "nameZh": "报价计算器",
+      "github": "pixellayer7-jpg/project-estimator",
+      "packagePath": "../project-estimator/package.json",
+      "version": "2.7.19",
+      "live": "https://pixellayer7-jpg.github.io/project-estimator/",
+      "changelog": "https://pixellayer7-jpg.github.io/project-estimator/?section=changelog",
+      "ciWorkflow": "ci.yml",
+      "highlightEn": "CRM list status filter + pagination (API offset/status)",
+      "highlightZh": "CRM 列表按状态筛选与分页（对接 API offset/status）"
+    },
+    {
+      "id": "api",
+      "name": "Quote API",
+      "nameZh": "报价 API",
+      "github": "pixellayer7-jpg/estimator-api",
+      "packagePath": "../estimator-api/package.json",
+      "version": "2.3.0",
+      "live": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json",
+      "changelog": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md",
+      "ciWorkflow": "ci.yml",
+      "highlightEn": "Multi-token roles (admin/crm/readonly) + GET /api/v1/me",
+      "highlightZh": "多 Token 角色鉴权（admin/crm/readonly）+ GET /api/v1/me"
+    },
+    {
+      "id": "rongen",
+      "name": "Rongen Church",
+      "nameZh": "荣恩堂",
+      "github": "pixellayer7-jpg/rongen-church",
+      "packagePath": "../rongen-church/package.json",
+      "version": "1.2.5",
+      "live": "https://pixellayer7-jpg.github.io/rongen-church/",
+      "changelog": "https://github.com/pixellayer7-jpg/rongen-church",
+      "ciWorkflow": "ci.yml",
+      "highlightEn": "Bilingual WP theme + Pages preview (zh/en), print, og:image",
+      "highlightZh": "双语 WP 主题 + Pages 预览（中/英）、打印、og:image"
+    }
+  ]
+}
