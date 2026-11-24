@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-24",
   "repos": [
     {
       "id": "landing",
@@ -20,12 +20,12 @@
       "nameZh": "报价计算器",
       "github": "pixellayer7-jpg/project-estimator",
       "packagePath": "../project-estimator/package.json",
-      "version": "2.7.19",
+      "version": "2.7.20",
       "live": "https://pixellayer7-jpg.github.io/project-estimator/",
       "changelog": "https://pixellayer7-jpg.github.io/project-estimator/?section=changelog",
       "ciWorkflow": "ci.yml",
-      "highlightEn": "CRM list status filter + pagination (API offset/status)",
-      "highlightZh": "CRM 列表按状态筛选与分页（对接 API offset/status）"
+      "highlightEn": "CRM search box (quoteRef/id · name/email) via API `q`",
+      "highlightZh": "CRM 搜索框（quoteRef/id · 姓名/邮箱）对接 API `q`"
     },
     {
       "id": "api",
@@ -33,12 +33,12 @@
       "nameZh": "报价 API",
       "github": "pixellayer7-jpg/estimator-api",
       "packagePath": "../estimator-api/package.json",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "live": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json",
       "changelog": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md",
       "ciWorkflow": "ci.yml",
-      "highlightEn": "Multi-token roles (admin/crm/readonly) + GET /api/v1/me",
-      "highlightZh": "多 Token 角色鉴权（admin/crm/readonly）+ GET /api/v1/me"
+      "highlightEn": "List `q` search on quotes/leads + multi-token roles",
+      "highlightZh": "列表 `q` 搜索（报价/线索）+ 多 Token 角色鉴权"
     },
     {
       "id": "rongen",

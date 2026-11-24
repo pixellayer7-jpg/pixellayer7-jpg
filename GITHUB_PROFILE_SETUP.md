@@ -34,9 +34,9 @@ https://github.com/settings/profile
 个人主页 → **Customize your pins** → 选 4 个（或至少 3 个）：
 
 1. `1`（Landing **v2.1.27**）
-2. `project-estimator`（Calculator **v2.7.19**）
+2. `project-estimator`（Calculator **v2.7.20**）
 3. `rongen-church`（Client parish site **v1.2.5**）
-4. `estimator-api`（API **v2.3.0**）— 可选第四个
+4. `estimator-api`（API **v2.4.0**）— 可选第四个
 
 ---
 
@@ -45,8 +45,8 @@ https://github.com/settings/profile
 | 仓库                  | Description                                                                              | Topics                                              |
 | --------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | **1**                 | PixelLayer marketing landing v2.1.27 — React 19 / Vite 8 / ESLint 10, interview one-pager, ?section= walkthrough | `react` `vite` `landing-page` `portfolio`           |
-| **project-estimator** | Bilingual quote calculator v2.7.19 — CRM status filter/pagination, React 19 / Vite 8           | `react` `vite` `portfolio` `i18n` `vitest`          |
-| **estimator-api**     | Fastify API v2.3.0 — multi-token roles, list offset/status, SQLite/Postgres, backup, e2e       | `nodejs` `fastify` `playwright` `portfolio`         |
+| **project-estimator** | Bilingual quote calculator v2.7.20 — CRM search + status filter/pagination, React 19 / Vite 8  | `react` `vite` `portfolio` `i18n` `vitest`          |
+| **estimator-api**     | Fastify API v2.4.0 — list `q` search, multi-token roles, SQLite/Postgres, backup, e2e          | `nodejs` `fastify` `playwright` `portfolio`         |
 | **rongen-church**     | Rongen Lutheran Church WP theme + bilingual Pages preview v1.2.5 (print + og:image)      | `wordpress` `php` `church` `portfolio` `i18n`       |
 
 ---

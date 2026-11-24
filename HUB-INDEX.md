@@ -12,8 +12,8 @@ One-page dashboard: **[VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)** (`version
 | Product | Version | CI | Live / docs | Changelog | Latest |
 | ------- | ------- | -- | ----------- | --------- | ------ |
 | [Landing](https://github.com/pixellayer7-jpg/1) | **v2.1.27** | [![CI](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/1/) | [notes](https://pixellayer7-jpg.github.io/1/?section=changelog) | Live stats figures covered; interview ?section=walkthrough |
-| [Calculator](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.19** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/project-estimator/) | [notes](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM list status filter + pagination (API offset/status) |
-| [Quote API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.3.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [open](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [notes](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | Multi-token roles (admin/crm/readonly) + GET /api/v1/me |
+| [Calculator](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.20** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/project-estimator/) | [notes](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM search box (quoteRef/id · name/email) via API `q` |
+| [Quote API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.4.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [open](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [notes](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | List `q` search on quotes/leads + multi-token roles |
 | [Rongen Church](https://github.com/pixellayer7-jpg/rongen-church) | **v1.2.5** | [![CI](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/rongen-church/) | [notes](https://github.com/pixellayer7-jpg/rongen-church) | Bilingual WP theme + Pages preview (zh/en), print, og:image |
 <!-- FLEET:END -->
 
@@ -22,10 +22,10 @@ One-page dashboard: **[VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)** (`version
 | Product                  | URL                                                                                 | Version |
 | ------------------------ | ----------------------------------------------------------------------------------- | ------- |
 | **Marketing landing**    | [github.io/1](https://pixellayer7-jpg.github.io/1/)                                 | v2.1.27 |
-| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.19 |
-| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.19 |
-| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.19 |
-| **Quote API**            | Docker / Render · [static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | v2.3.0  |
+| **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.20 |
+| **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.20 |
+| **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.20 |
+| **Quote API**            | Docker / Render · [static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | v2.4.0  |
 | **Parish WordPress**     | [Live zh](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) · [source](https://github.com/pixellayer7-jpg/rongen-church) | v1.2.5  |
 
 **Flow:** Landing -> calculator -> **Open proposal** -> **type name to accept** -> portal kickoff -> **CRM This browser** + download engagement record. Zero secrets.
@@ -58,7 +58,7 @@ Setup checklist (Bio, Pages, Formspree): [GITHUB_PROFILE_SETUP.md](./GITHUB_PROF
 
 - **版本 / CI 仪表：** [VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)
 - **官网：** [主站演示 v2.1.27](https://pixellayer7-jpg.github.io/1/) · [5 分钟走查](https://pixellayer7-jpg.github.io/1/?section=walkthrough)
-- **报价工具：** [计算器 v2.7.19](https://pixellayer7-jpg.github.io/project-estimator/) · [更新日志](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog)
+- **报价工具：** [计算器 v2.7.20](https://pixellayer7-jpg.github.io/project-estimator/) · [更新日志](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog)
 - **CRM 管理（演示可用）：** [?admin=1](https://pixellayer7-jpg.github.io/project-estimator/?admin=1)
 - **可分享提案：** [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)
 - **客户状态页（报价灌水）：** [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)
