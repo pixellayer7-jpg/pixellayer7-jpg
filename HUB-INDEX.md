@@ -13,7 +13,7 @@ One-page dashboard: **[VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)** (`version
 | ------- | ------- | -- | ----------- | --------- | ------ |
 | [Landing](https://github.com/pixellayer7-jpg/1) | **v2.1.27** | [![CI](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/1/) | [notes](https://pixellayer7-jpg.github.io/1/?section=changelog) | Live stats figures covered; interview ?section=walkthrough |
 | [Calculator](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.20** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/project-estimator/) | [notes](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM search box (quoteRef/id · name/email) via API `q` |
-| [Quote API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.4.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [open](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [notes](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | List `q` search on quotes/leads + multi-token roles |
+| [Quote API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.5.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [open](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [notes](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | Audit log for PATCH/backup + admin GET /audit |
 | [Rongen Church](https://github.com/pixellayer7-jpg/rongen-church) | **v1.2.5** | [![CI](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/rongen-church/) | [notes](https://github.com/pixellayer7-jpg/rongen-church) | Bilingual WP theme + Pages preview (zh/en), print, og:image |
 <!-- FLEET:END -->
 
@@ -25,7 +25,7 @@ One-page dashboard: **[VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)** (`version
 | **Quote calculator**     | [github.io/project-estimator](https://pixellayer7-jpg.github.io/project-estimator/) | v2.7.20 |
 | **Shareable proposal**   | [?proposal=sow](https://pixellayer7-jpg.github.io/project-estimator/?proposal=sow)  | v2.7.20 |
 | **Client status portal** | [?portal=quote](https://pixellayer7-jpg.github.io/project-estimator/?portal=quote)  | v2.7.20 |
-| **Quote API**            | Docker / Render · [static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | v2.4.0  |
+| **Quote API**            | Docker / Render · [static OpenAPI](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | v2.5.0  |
 | **Parish WordPress**     | [Live zh](https://pixellayer7-jpg.github.io/rongen-church/) · [EN](https://pixellayer7-jpg.github.io/rongen-church/en/) · [source](https://github.com/pixellayer7-jpg/rongen-church) | v1.2.5  |
 
 **Flow:** Landing -> calculator -> **Open proposal** -> **type name to accept** -> portal kickoff -> **CRM This browser** + download engagement record. Zero secrets.

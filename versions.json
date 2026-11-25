@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "repos": [
     {
       "id": "landing",
@@ -33,12 +33,12 @@
       "nameZh": "报价 API",
       "github": "pixellayer7-jpg/estimator-api",
       "packagePath": "../estimator-api/package.json",
-      "version": "2.4.0",
+      "version": "2.5.0",
       "live": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json",
       "changelog": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md",
       "ciWorkflow": "ci.yml",
-      "highlightEn": "List `q` search on quotes/leads + multi-token roles",
-      "highlightZh": "列表 `q` 搜索（报价/线索）+ 多 Token 角色鉴权"
+      "highlightEn": "Audit log for PATCH/backup + admin GET /audit",
+      "highlightZh": "PATCH/backup 审计日志 + admin GET /audit"
     },
     {
       "id": "rongen",

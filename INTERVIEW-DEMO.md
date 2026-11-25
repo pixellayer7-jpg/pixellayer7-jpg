@@ -2,7 +2,7 @@
 
 **Goal:** In ~10 minutes, show end-to-end ownership — bilingual product UI **and** a small Fastify API — with zero paid services.
 
-**Versions:** Landing **v2.1.27** · Calculator **v2.7.20** · API **v2.4.0** · Rongen **v1.2.5**
+**Versions:** Landing **v2.1.27** · Calculator **v2.7.20** · API **v2.5.0** · Rongen **v1.2.5**
 **Fleet:** [VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md)
 
 ---

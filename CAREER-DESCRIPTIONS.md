@@ -2,7 +2,7 @@
 
 Copy-ready text for LinkedIn, résumés, GitHub Bio, and applications when you are both **founder** and **IC**.
 
-**Versions (update when shipping):** Landing **v2.1.27** · Calculator **v2.7.20** · API **v2.4.0** · Rongen **v1.2.5**
+**Versions (update when shipping):** Landing **v2.1.27** · Calculator **v2.7.20** · API **v2.5.0** · Rongen **v1.2.5**
 **Fleet dashboard:** [VERSION-DASHBOARD.md](./VERSION-DASHBOARD.md) (CI badges + changelogs; sync via `versions.json`)
 
 **Live demos (start here):**
@@ -99,7 +99,7 @@ pixellayer7@gmail.com
 | --- | --- |
 | Landing (`1`) | Bilingual marketing site + `?section=` walkthrough; React 19 / Vite 8, ESLint 10, Vitest (~100% lines) + Playwright e2e with axe |
 | Calculator (`project-estimator`) | Quote → proposal → portal → CRM (status filter + pagination); ESLint 10, Playwright + axe in CI |
-| API (`estimator-api`) | Fastify quotes/leads with `q` search, multi-token roles, offset/status lists, SQLite/Postgres, Bearer backup, Playwright API e2e |
+| API (`estimator-api`) | Fastify quotes/leads with audit log, `q` search, multi-token roles, offset/status lists, SQLite/Postgres, Bearer backup, Playwright API e2e |
 | Rongen (`rongen-church`) | Liturgical WP theme + zh/EN Pages preview, print CSS, og:image; Node 22 CI |
 
 ---
