@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "repos": [
     {
       "id": "landing",
@@ -20,12 +20,12 @@
       "nameZh": "报价计算器",
       "github": "pixellayer7-jpg/project-estimator",
       "packagePath": "../project-estimator/package.json",
-      "version": "2.7.20",
+      "version": "2.7.21",
       "live": "https://pixellayer7-jpg.github.io/project-estimator/",
       "changelog": "https://pixellayer7-jpg.github.io/project-estimator/?section=changelog",
       "ciWorkflow": "ci.yml",
-      "highlightEn": "CRM search box (quoteRef/id · name/email) via API `q`",
-      "highlightZh": "CRM 搜索框（quoteRef/id · 姓名/邮箱）对接 API `q`"
+      "highlightEn": "CRM inline notes on quotes/leads (API notes field)",
+      "highlightZh": "CRM 行内备注（对接 API notes）"
     },
     {
       "id": "api",
@@ -33,12 +33,12 @@
       "nameZh": "报价 API",
       "github": "pixellayer7-jpg/estimator-api",
       "packagePath": "../estimator-api/package.json",
-      "version": "2.5.0",
+      "version": "2.6.0",
       "live": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json",
       "changelog": "https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md",
       "ciWorkflow": "ci.yml",
-      "highlightEn": "Audit log for PATCH/backup + admin GET /audit",
-      "highlightZh": "PATCH/backup 审计日志 + admin GET /audit"
+      "highlightEn": "Notes field on quotes/leads + PATCH notes/status",
+      "highlightZh": "报价/线索 notes 字段 + PATCH 备注/状态"
     },
     {
       "id": "rongen",

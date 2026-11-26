@@ -4,15 +4,15 @@
 > 招聘 / 面试一页看清：四个公开仓库的版本、CI 与更新说明。
 
 **Source of truth:** [`versions.json`](./versions.json) · refresh: `node scripts/sync-version-dashboard.mjs`  
-**Last synced:** 2026-11-25
+**Last synced:** 2026-11-26
 
 ## Fleet status
 
 | Product | Version | CI | Live / docs | Changelog | Latest |
 | ------- | ------- | -- | ----------- | --------- | ------ |
 | [Landing](https://github.com/pixellayer7-jpg/1) | **v2.1.27** | [![CI](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/1/) | [notes](https://pixellayer7-jpg.github.io/1/?section=changelog) | Live stats figures covered; interview ?section=walkthrough |
-| [Calculator](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.20** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/project-estimator/) | [notes](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM search box (quoteRef/id · name/email) via API `q` |
-| [Quote API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.5.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [open](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [notes](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | Audit log for PATCH/backup + admin GET /audit |
+| [Calculator](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.21** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/project-estimator/) | [notes](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM inline notes on quotes/leads (API notes field) |
+| [Quote API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.6.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [open](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [notes](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | Notes field on quotes/leads + PATCH notes/status |
 | [Rongen Church](https://github.com/pixellayer7-jpg/rongen-church) | **v1.2.5** | [![CI](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml) | [open](https://pixellayer7-jpg.github.io/rongen-church/) | [notes](https://github.com/pixellayer7-jpg/rongen-church) | Bilingual WP theme + Pages preview (zh/en), print, og:image |
 
 ## 舰队状态
@@ -20,8 +20,8 @@
 | 产品 | 版本 | CI | 线上 / 文档 | 更新说明 | 最近要点 |
 | ---- | ---- | -- | ----------- | -------- | -------- |
 | [营销主站](https://github.com/pixellayer7-jpg/1) | **v2.1.27** | [![CI](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/1/actions/workflows/ci.yml) | [打开](https://pixellayer7-jpg.github.io/1/) | [说明](https://pixellayer7-jpg.github.io/1/?section=changelog) | 数据一览补齐测试；面试 ?section=walkthrough |
-| [报价计算器](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.20** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [打开](https://pixellayer7-jpg.github.io/project-estimator/) | [说明](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM 搜索框（quoteRef/id · 姓名/邮箱）对接 API `q` |
-| [报价 API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.5.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [打开](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [说明](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | PATCH/backup 审计日志 + admin GET /audit |
+| [报价计算器](https://github.com/pixellayer7-jpg/project-estimator) | **v2.7.21** | [![CI](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/project-estimator/actions/workflows/ci.yml) | [打开](https://pixellayer7-jpg.github.io/project-estimator/) | [说明](https://pixellayer7-jpg.github.io/project-estimator/?section=changelog) | CRM 行内备注（对接 API notes） |
+| [报价 API](https://github.com/pixellayer7-jpg/estimator-api) | **v2.6.0** | [![CI](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/estimator-api/actions/workflows/ci.yml) | [打开](https://github.com/pixellayer7-jpg/estimator-api/blob/main/docs/openapi.json) | [说明](https://github.com/pixellayer7-jpg/estimator-api/blob/main/CHANGELOG.md) | 报价/线索 notes 字段 + PATCH 备注/状态 |
 | [荣恩堂](https://github.com/pixellayer7-jpg/rongen-church) | **v1.2.5** | [![CI](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml/badge.svg)](https://github.com/pixellayer7-jpg/rongen-church/actions/workflows/ci.yml) | [打开](https://pixellayer7-jpg.github.io/rongen-church/) | [说明](https://github.com/pixellayer7-jpg/rongen-church) | 双语 WP 主题 + Pages 预览（中/英）、打印、og:image |
 
 ## How this stays current
